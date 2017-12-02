@@ -1,8 +1,9 @@
 # CUSP Hack Day: 12/2/17
-* Name
-* Name
-* Name
-* Name
+* Julian Ferrearo
+* Dana Chermesh 
+* Alex Shannon
+* Guarav Bhardwaj
+* Sarah Schoengold
 
 # How might we automate identifying vegetation growth in Dublin? 
 
@@ -15,26 +16,20 @@ In 2015, NYU's Professor Laefer's research team released the largest lidar datas
 * [CUSPhack/Hack1-2017-8](https://github.com/CUSPhack/Hack1-2017-8)
 * https://drive.google.com/a/nyu.edu/file/d/14wPI3dqB7Q_HEDN3DWeJQ90B1JvbwCh2/view?usp=sharing 
 
-#### Lit review and resoursee
-* [Statistic-based rapid change detection for remote sensing data 1](https://drive.google.com/a/nyu.edu/file/d/16ySD2MffZkYu-7BtpzeR49TXuiBuVZdE/view?usp=sharing) 
-* [Statistic-based rapid change detection for remote sensing data 2](https://drive.google.com/a/nyu.edu/file/d/1kpEeU0qmeMCUfWG83WwwY6zxDiAHWuXQ/view?usp=sharing)
+### Lit review and resourses
 * [Characterization and Classification of Vegetation Canopy Structure and Distribution within the Great Smoky Mountains National Park Using LiDAR](http://ieeexplore.ieee.org/document/7395844/)
+* [Statistic-based rapid change detection for remote sensing - student paper 1](https://drive.google.com/a/nyu.edu/file/d/16ySD2MffZkYu-7BtpzeR49TXuiBuVZdE/view?usp=sharing) 
+* [Statistic-based rapid change detection for remote sensing - student paper 1](https://drive.google.com/a/nyu.edu/file/d/1kpEeU0qmeMCUfWG83WwwY6zxDiAHWuXQ/view?usp=sharing)
 
-### The process
-#### Install appropriate las packages to work with LAS data
-* [libLAS documentation](https://pypi.python.org/pypi/libLAS)
-#### Interpolation
-* [RegularGridInterpolator](https://docs.scipy.org/doc/scipy-0.16.1/reference/generated/scipy.interpolate.RegularGridInterpolator.html)
-#### Remove noise
-* Smooth numpy arrays
-#### Remove areas of no change
-* 
 
-#### Define threshold
-* 
+### The Process
+* Install appropriate las packages to work with LAS data, including [libLAS documentation](https://pypi.python.org/pypi/libLAS)
+* Interpolation using [RegularGridInterpolator](https://docs.scipy.org/doc/scipy-0.16.1/reference/generated/scipy.interpolate.RegularGridInterpolator.html)
+* Remove noise by smoothing numpy arrays
+* Remove areas of little or no change
+* Define vegetation threshold 
+* Visualize! Use all the cmaps! 
 
-#### Visualize
-* Look at our tree!
-
+### Then, enjoy a Guiness and toast to Dublin
 
 ![LIDAR](LIDAR.png)
