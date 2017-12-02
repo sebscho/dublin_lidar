@@ -1,5 +1,7 @@
 # CUSP Hack Day: 12/2/17
 
+![LIDAR](LIDAR.png)
+
 # The question
 * this 
 * that
