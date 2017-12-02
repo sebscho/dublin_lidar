@@ -12,6 +12,7 @@
 
 # The process
 ### laspy install and import
+  - [libLAS documentation](https://pypi.python.org/pypi/libLAS)
 ### scipy.interpolate
   - https://docs.scipy.org/doc/scipy/reference/tutorial/interpolate.html
 
