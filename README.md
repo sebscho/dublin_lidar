@@ -11,8 +11,9 @@
 * that
 
 # The process
-* this 
-* that
+### laspy install and import
+### scipy.interpolate
+  - https://docs.scipy.org/doc/scipy/reference/tutorial/interpolate.html
 
 # More!
 * this 
